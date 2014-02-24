@@ -1,7 +1,7 @@
 copy_docs_assets:
-	cp components/bootstrap/dist/css/bootstrap.min.css _jekyll/css/bootstrap.min.css
-	cp components/respond/respond.min.js _jekyll/js/respond.min.js
-	cp -r components/bootstrap/dist/fonts _jekyll/fonts
+	cp lib/vendor/bootstrap/dist/css/bootstrap.min.css _jekyll/css/bootstrap.min.css
+	cp lib/vendor/respond/respond.min.js _jekyll/js/respond.min.js
+	cp -r lib/vendor/bootstrap/dist/fonts _jekyll/fonts
 
 serve_docs:
 	jekyll serve --watch -s _jekyll/ -d docs/
@@ -20,5 +20,5 @@ pages:
 pages_setup:
 	mkdir gh-pages
 	git init gh-pages
-	cd gh-pages; git remote add origin https://github.com/fk/select2-bootstrap-css.git
+	cd gh-pages; git remote add origin git@github.com:MattKetmo/select2-bootstrap-css.git
 	cd gh-pages; git checkout -b gh-pages

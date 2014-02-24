@@ -1,7 +1,7 @@
 {
-  "name": "select2-bootstrap-css",
-  "version": "1.2.2",
-  "description": "simple css to make select2 widgets fit in with bootstrap",
+  "name": "select2-bootstrap",
+  "version": "1.3.0",
+  "description": "Simple css to make select2 widgets fit in with bootstrap",
   "main": "",
   "directories": {
     "doc": "docs"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/t0m/select2-bootstrap-css.git"
+    "url": "git://github.com/MattKetmo/select2-bootstrap-css.git"
   },
   "keywords": [
     "bootstrap",
